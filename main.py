@@ -24,7 +24,7 @@ def cookiejar_json():
     image = randomize_image()
 
     return jsonify({
-        "oreo": "www.test.com/" + image
+        "oreo": config["github_url"] + image
         })
 
 @app.errorhandler(404)
