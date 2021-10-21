@@ -28,8 +28,35 @@ body {
 }
 
 .content p {
-    font-size: 35px;
+    font-size: 25px;
     margin: 10;
+}
+
+/* Tooltip container */
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted #272425;
+}
+
+/* Tooltip */
+.tooltip .tooltiptext {
+visibility: hidden;
+width: 120px;
+background-color: #272425;
+text-align: left;
+padding: 1vw;
+border-radius: 6px;
+position: absolute;
+z-index: 1;
+}
+
+.tooltip .tooltiptext a {
+    color: #fff;
+}
+
+.tooltip:hover .tooltiptext {
+visibility: visible;
 }
 
 /* Buttons */
@@ -80,4 +107,87 @@ body {
 .button2:hover,
 .button3:hover {
     filter: brightness(80%);
+}
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) {
+    /* Text */
+    .content h1 {
+        font-size: 150px;
+    }
+
+    .content p {
+        font-size: 50px;
+    }
+
+    /* Tooltip */
+    .tooltip {
+        font-size: 50px;
+    }
+
+    .tooltip .tooltiptext {
+        width: 33vw;
+    }
+
+
+    /* Buttons */
+    .buttons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .button1,
+    .button2,
+    .button3 {
+        font-size: 50px;
+    }
+
+}
+
+/* ----------- iPhone X ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) {
+    /* Text */
+    .content h1 {
+        font-size: 150px;
+    }
+
+    .content p {
+        font-size: 50px;
+    }
+
+    /* Tooltip */
+    .tooltip {
+        font-size: 50px;
+    }
+
+    .tooltip .tooltiptext {
+        width: 33vw;
+    }
+
+    /* Buttons */
+    .buttons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .button1,
+    .button2,
+    .button3 {
+        font-size: 50px;
+    }
+
 }
