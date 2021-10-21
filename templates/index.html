@@ -1,5 +1,4 @@
-<!-- Landing Page for The Office Quotes-->
-{% block content %}
+<!-- Oreo API -->
 <html lang="en">
     <head>
         <title>{{ config.title }}</title>
@@ -10,6 +9,14 @@
     <body>
       <div class="content">
         <h1>{{ config.h1 }}</h1>
+        <div class="tooltip">Help
+            <span class="tooltiptext">
+                Click <a target="_blank" href="cookiejar">Open Cookie Jar</a> to get a random image of an Oreo!
+                <br>
+                <br>
+                Refresh that page for a new image.
+            </span>
+        </div>
         <div class="buttons">
           <!-- Button -->
           <a target="_blank" class="button1" href="cookiejar" role="button">Open Cookie Jar</a>
@@ -19,4 +26,3 @@
       </div>
     </body>
 </html>
-{% endblock %}
