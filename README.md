@@ -8,7 +8,7 @@ The user can also curl the oreo api by running: ```$ curl https://oreoapi.heroku
 
 For more information visit: https://oreoapi.herokuapp.com/
 
-A Step-by-Step tutorial is coming soon!
+For a Step-by-Step Flask tutorial, read this [Medium article](https://danblevins.medium.com/step-by-step-creating-a-flask-app-and-deploying-it-to-heroku-83350be5f8b).
 
 ## Inspiration
 
