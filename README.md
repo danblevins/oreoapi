@@ -12,7 +12,7 @@ For a Step-by-Step Flask tutorial, read this [Medium article](https://danblevins
 
 ## Inspiration
 
-There's a fascinating [oreo subculture](https://www.reddit.com/r/OutOfTheLoop/comments/3tkpa5/why_has_oreo_such_a_cult_following/) that even some of my friends are a part of. This gives me the ability to relate to them more.
+There's a fascinating [oreo subculture](https://people.com/food/champion-celebrates-oreos-110th-birthday-with-new-merch-line/) and [cult following](https://www.reddit.com/r/OutOfTheLoop/comments/3tkpa5/why_has_oreo_such_a_cult_following/) that even some of my friends are a part of. This gives me the ability to relate to them more.
 
 ## Installation & Usage
 
