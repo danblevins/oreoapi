@@ -23,6 +23,9 @@ In your terminal/ command line, make sure you have Python 3 installed (I'm using
 Libraries Used:
 
 - [Flask](https://flask.palletsprojects.com/en/2.0.x/)
+- [json](https://docs.python.org/3/library/json.html)
+- [os](https://docs.python.org/3/library/os.html)
+- [random](https://docs.python.org/3/library/random.html)
 
 Cloud Platform Used:
 
