@@ -2,6 +2,8 @@
 
 ## About this Project
 
+!! This project was hosted on Heroku's free version, until they revoked the free service !!
+
 This project allows the user to receive random oreo pictures as images or in [json](https://www.infoworld.com/article/3222851/what-is-json-a-better-format-for-data-exchange.html).
 
 The user can also curl the oreo api by running: ```$ curl https://oreoapi.herokuapp.com/cookiejar.json``` 
