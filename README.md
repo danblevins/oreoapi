@@ -31,7 +31,7 @@ Libraries Used:
 
 Cloud Platform Used:
 
-- [Heroku](https://www.heroku.com/)
+- [Surge](https://surge.sh/)
 
 After downloading this repository, run the below command inside the repository using the terminal:
 <br>
